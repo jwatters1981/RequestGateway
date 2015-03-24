@@ -1,0 +1,3 @@
+include 'RequestProcessor','ApplicationConfiguration'
+project(':RequestProcessor').projectDir = new File(settingsDir, '../RequestProcessor') 
+project(':ApplicationConfiguration').projectDir = new File(settingsDir, '../../ApplicationConfiguration') 
